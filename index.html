@@ -6,6 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PlantGuard - Disease & Pest Management</title>
   </head>
+  <style>
+    }
+        .chat-toggle {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #008000;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .chat-toggle:hover {
+            background-color: #008000;
+        }
+        .chat-iframe {
+            position: fixed;
+            bottom: 80px;
+            right: 20px;
+            width: 350px; /* Increased width */
+            height: 600px; /* Increased height to 1.5 times the original height */
+            border: none;
+            display: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .chat-controls {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: #008000;
+            color: white;
+            border-radius: 5px 5px 0 0;
+        }
+        .chat-controls button {
+            background-color: #008000;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .chat-controls button:hover {
+            background-color: #008000;
+        }
+    </style>
   <body>
     <div id="root"></div>
     <iframe id="chatIframe" src="https://app.chatgptbuilder.io/webchat/?p=1332271&ref=1748856274634" class="chat-iframe"></iframe>
